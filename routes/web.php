@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/menu', function () {
+    return view('menuPrincipal');
+});
+
+Route::get('/registrar',function(){
+	return view('registroestudiante');
+});

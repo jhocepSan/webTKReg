@@ -1,0 +1,57 @@
+.fondo-main{
+    display: inline-block;
+	background-color: #FF7043;
+	width: 82%;
+	height: 702px;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	font-family: verdana;
+	color: #212F3C;
+}
+fieldset {
+    display: inline;
+    position: relative;
+    width: 44%;
+    height: 350px;
+    padding: 10px;
+    margin: 10px;
+}
+.fieldset2{
+    position: relative;
+    top: -65px;
+}
+form fieldset label{
+	color: #212F3C;
+	font:16px Verdana;
+	transition: background .6s,margin-left .6s,margin-right .6s;
+	-webkit-transition: background .6s,margin-left .6s,margin-right .6s;
+	-moz-transition: background .6s,margin-left .6s,margin-right .6s;
+	-o-transition: background .6s,margin-left .6s,margin-right .6s;
+}
+legend{
+    font-size: 18px;
+    font-weight:bold ; 
+	/* text-align: center; */
+	font-family: verdana;
+	color: rgb(255, 255, 255);
+}
+
+form{
+    padding: 10px
+}
+
+form fieldset label{
+    margin: 5px;
+	padding-top: 5px;
+}
+form fieldset input{
+    margin: 5px;
+	padding-top: 5px;
+}
+
+form fieldset select{
+    margin: 5px;
+	padding-top: 5px;
+}
