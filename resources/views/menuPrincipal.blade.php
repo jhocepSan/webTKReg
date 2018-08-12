@@ -8,12 +8,12 @@
 	<nav id='menu'>
 		<ul>
 			<a href="/registrar"><img src={{asset("img/registro.png")}}/>Registrar Estudiante</a>
-			<a href="#"><img src="img/asistencia.png">Control de Asistencia</a>
+			<a href="/asistencia"><img src="img/asistencia.png">Control de Asistencia</a>
 			<a href="#"><img src="img/pago.png">Pago Mensualidad</a>
 			<a href="#"><img src="img/examen.png">Examen del Club</a>
 			<a href="#"><img src="img/evento.png">Agregar al Evento</a>
-			<a href="#"><img src="img/lista.png">Lista Deudores</a>
-			<a href="#"><img src="img/listaEvento.png">Listas del Evento</a>
+			<a href="/deudores"><img src="img/lista.png">Lista Deudores</a>
+			<a href="/eventos"><img src="img/listaEvento.png">Listas del Evento</a>
 			<a href="#"><img src="img/configu.png">Configuraciones</a>
 		</ul>
 	</nav>

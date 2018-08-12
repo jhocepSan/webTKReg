@@ -1,0 +1,14 @@
+div {
+	margin: 20px 40px 0px 40px;
+}
+#botones a {
+	margin: 40px;
+}
+button {
+	width: 80px;
+    height: 40px;
+    font: 18px verdana;
+    margin-top: 5%;
+    margin-left: 45%;
+    margin-bottom: 2%;
+}

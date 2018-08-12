@@ -1,0 +1,183 @@
+fieldset {
+	margin: 30px;
+	display: block;
+}
+fieldset legend {
+	color: white;
+	font: bold 18px verdana;
+}
+#contenedorGrupoBusqueda {
+	display: inline-block;
+	margin: 30px;
+}
+#contenedorGrupo {
+	float: left;
+	padding: 8px;
+	width: 445px;
+	max-width: 445px;
+}
+#contenedorBusqueda {
+	float: left;
+}
+#labelGrupo {
+	font: 16px verdana;
+}
+#nombreGrupo {
+	font: 16px verdana;
+	background-color: #f1f1f1;
+	padding: 8px;
+}
+#botonBusqueda {
+	float: left;
+	border-right: none;
+	cursor: pointer;
+	width: 70px;
+	height: 38px;
+	border: 1px solid grey;;
+    background: #2196F3;
+}
+#botonBusqueda:hover {
+	background: #0b7dda;
+}
+#textoBusqueda{
+	float: left;
+	width: 442px;
+	max-width: 450px;
+	height: 38px;
+	padding: 15px;
+	border: 1px solid grey;
+	background: #f1f1f1;
+	font-size: 16px;
+}
+#popup {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+#popup:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   transition:all 1s;
+}
+.popup-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:80%;
+   height: 70%;
+}
+a.popup-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
+.tablaHorarios {
+  	table-layout: fixed;
+ 	border-collapse: collapse;
+}
+.tablaHorarios thead tr{
+	display: block;
+	background-color: #FF7043;
+	color: white;
+}
+.tablaHorarios tbody {
+	display: block;
+  	overflow: auto;
+ 	width: 100%;
+	max-height: 400px;
+}
+.tablaHorarios th, .tablaHorarios td {
+  	padding: 5px;
+  	width: 300px;
+  	text-align: left;
+  	word-break: break-all;
+}
+.tablaHorarios td {
+	border-bottom: solid 2px #ddd;
+}
+.tablaHorarios th {
+	font: bold 15px verdana;
+}
+.tablaHorarios tr {
+	font: 14px verdana;
+	background-color: #D5F5E3;
+}
+.tablaHorarios tbody tr:hover {
+	background-color:#00BFFF;
+}
+#contenedorTablaPrincipal {
+	margin: 20px 40px 0px 40px;
+	max-height: 450px;
+}
+.tablaPrincipal {
+  	table-layout: fixed;
+ 	border-collapse: collapse;
+	background-color: #f1f1f1;
+}
+.tablaPrincipal thead tr{
+	display: block;
+	background-color: #4B5042;
+	color: white;
+}
+.tablaPrincipal tbody {
+	display: block;
+  	overflow: auto;
+ 	width: 100%;
+ 	height: 340px;
+	max-height: 340px;
+}
+.tablaPrincipal th, .tablaPrincipal td {
+  	padding: 5px;
+  	width: 200px;
+  	text-align: left;
+  	word-break: break-all;
+}
+.tablaPrincipal th {
+	font: bold 15px verdana;
+}
+.tablaPrincipal td {
+	border-bottom: solid 2px #ddd;
+}
+.tablaPrincipal tr {
+	font: 14px verdana;
+}
+.tablaPrincipal tbody tr:hover {
+	background-color:#00BFFF;
+}
+.checkbox {
+	margin-left: 50px;
+    cursor: pointer;
+
+}
+#contenedorBotonesInferiores {
+	margin: 20px 40px 25px 40px;
+}
+#inicio {
+	width: 80px;
+	height: 40px;
+	font: 18px verdana;
+	margin-left: 30%;
+}
+#guardar {
+	width: 80px;
+	height: 40px;
+	font: 18px verdana;
+	margin-left: 10%;
+}

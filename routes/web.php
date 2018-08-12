@@ -21,3 +21,19 @@ Route::get('/menu', function () {
 Route::get('/registrar',function(){
 	return view('registroestudiante');
 });
+
+Route::get('/asistencia',function(){
+	return view('controlasistencia');
+});
+
+Route::get('/historialalumno',function(){
+	return view('historialalumno');
+});
+
+Route::get('/deudores',function(){
+	return view('listadeudores');
+});
+
+Route::get('/eventos',function(){
+	return view('listaseventos');
+});
